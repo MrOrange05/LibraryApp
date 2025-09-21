@@ -1,0 +1,27 @@
+## Игнорировать временные файлы Visual Studio, результаты сборки
+## и файлы, сгенерированные популярными дополнениями Visual Studio.
+
+# Пользовательские файлы
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Результаты сборки
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Пакеты NuGet
+*.nupkg
+packages/
+
+# Кэш/опции Visual Studio
+.vs/
